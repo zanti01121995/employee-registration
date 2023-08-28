@@ -6,7 +6,7 @@ function Navbar() {
     <nav className="navbar">
       <div className="navbar-title">Employee Registration</div>
       <div className="links">
-        <Link to="/">
+        <Link to="/users">
           <button className="add-employee-button">Home</button>
         </Link>
         <Link to="/form">

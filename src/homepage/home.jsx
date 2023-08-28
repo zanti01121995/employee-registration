@@ -10,9 +10,9 @@ function Home() {
       <Navbar />
 
       <Routes>
-        <Route path="/users">
+        <Route>
           <Route index path="/" element={<EmployeeCard />}></Route>
-
+          <Route path="/users" element={<EmployeeCard />}></Route>
           <Route path="/edit" element={<EditForm />} />
           <Route path="/form" element={<Form />}></Route>
         </Route>
