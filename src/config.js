@@ -1,0 +1,1 @@
+export const employeesUrl = 'https://64eb3858e51e1e82c5771a38.mockapi.io';
